@@ -1,0 +1,27 @@
+name: Revisar enlaces
+on:
+  schedule:
+    - cron: "0 9 * * 1"   # cada lunes 09:00 UTC
+  workflow_dispatch:
+  pull_request:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Revisar enlaces con lychee
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --max-retries 3 --accept 200,206,403,429 './**/*.md'
+          fail: false
+      - name: Abrir issue si hay enlaces rotos (solo en la revisión semanal)
+        if: steps.lychee.outputs.exit_code != 0 && github.event_name != 'pull_request'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Enlaces rotos detectados"
+          content-filepath: ./lychee/out.md
+          labels: enlaces-rotos
