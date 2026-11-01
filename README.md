@@ -2,7 +2,7 @@
 
 > Lista curada de herramientas, cursos, modelos, datasets y comunidades de inteligencia artificial **en español o útiles para hispanohablantes**.
 
-**139 recursos**, todos abiertos y revisados el 1 de noviembre de 2026. Un flujo de GitHub Actions revisa los enlaces cada semana.
+**165 recursos**, gratuitos o de código abierto (las excepciones de licencia van marcadas con ⚠️), con enlaces comprobados el 1 de noviembre de 2026. Un flujo de GitHub Actions revisa los enlaces cada semana.
 
 ¿No sabes por dónde empezar? Mira [`ejemplos/clientes/`](ejemplos/clientes/): 4 perfiles ficticios (pintor, restaurante, maestra, freelancer) con su ruta recomendada.
 
@@ -46,6 +46,13 @@
 - [Curso de NLP de Hugging Face](https://huggingface.co/learn/nlp-course/es/chapter1/1) 🇪🇸 — Curso de procesamiento de lenguaje natural con librerías de Hugging Face.
 - [¿Qué es la IA? (IBM)](https://www.ibm.com/es-es/think/topics/artificial-intelligence) 🇪🇸 — Artículo introductorio sobre inteligencia artificial.
 - [Kaggle Learn](https://www.kaggle.com/learn) — Microcursos de ciencia de datos y machine learning.
+- [Curso de agentes de Hugging Face](https://github.com/huggingface/agents-course) — Curso gratuito sobre agentes de IA (Apache-2.0, en inglés).
+- [Curso de Hugging Face (repo)](https://github.com/huggingface/course) — Material del curso de Transformers, con traducciones (Apache-2.0).
+- [AI Agents for Beginners (Microsoft)](https://github.com/microsoft/ai-agents-for-beginners) — Lecciones para empezar con agentes de IA (MIT).
+- [Data Science for Beginners (Microsoft)](https://github.com/microsoft/Data-Science-For-Beginners) — 20 lecciones de ciencia de datos (MIT).
+- [LLM Course (mlabonne)](https://github.com/mlabonne/llm-course) — Ruta y notebooks para aprender LLMs (Apache-2.0, en inglés).
+- [LLMs from scratch (rasbt)](https://github.com/rasbt/LLMs-from-scratch) — Construye un LLM paso a paso en PyTorch (Apache-2.0, en inglés).
+- [nanoGPT](https://github.com/karpathy/nanoGPT) — Repositorio mínimo para entrenar GPTs pequeños (MIT).
 
 ## 💬 Asistentes de IA de uso general
 
@@ -57,6 +64,7 @@
 - [DeepL Translator](https://www.deepl.com/es/translator) — Traductor de texto y archivos con IA, con interfaz en español.
 - [GitHub Copilot](https://github.com/features/copilot) — Agente de programación de GitHub para el editor, la terminal y pull requests.
 - [Cursor](https://cursor.com) — Editor de código con agentes de IA que convierten ideas en código.
+- [prompts.chat](https://github.com/f/prompts.chat) — Colección comunitaria de prompts (código MIT, prompts CC0).
 
 ## 🖥️ IA local (en tu propia computadora)
 
@@ -73,6 +81,9 @@
 - [Ollama (repo)](https://github.com/ollama/ollama) — Código fuente de Ollama para ejecutar modelos abiertos.
 - [text-generation-webui](https://github.com/oobabooga/text-generation-webui) — App de escritorio de código abierto para LLMs locales.
 - [vLLM](https://github.com/vllm-project/vllm) — Motor de inferencia y servicio de LLMs eficiente en memoria.
+- [exo](https://github.com/exo-explore/exo) — Ejecuta modelos repartidos entre tus propios dispositivos (Apache-2.0).
+- [Unsloth](https://github.com/unslothai/unsloth) — Ajuste fino y ejecución local de LLMs con menos memoria (Apache-2.0).
+- [LiteLLM](https://github.com/BerriAI/litellm) — Puerta de enlace para llamar a muchos LLMs con una sola API (MIT salvo carpeta enterprise/).
 
 ## 🧠 Modelos en español y multilingües
 
@@ -102,6 +113,10 @@
 - [opus-mt-en-es](https://huggingface.co/Helsinki-NLP/opus-mt-en-es) — Traducción automática inglés→español, ligera y local.
 - [NLLB-200 distilled 600M](https://huggingface.co/facebook/nllb-200-distilled-600M) — Modelo de traducción de Meta entre 200 idiomas.
 - [Barcelona Supercomputing Center](https://www.bsc.es) 🇪🇸 — Centro de supercomputación de Barcelona.
+- [Transformers (Hugging Face)](https://github.com/huggingface/transformers) — Librería de referencia para usar modelos abiertos (Apache-2.0).
+- [lm-spanish (PlanTL / BSC)](https://github.com/PlanTL-GOB-ES/lm-spanish) 🇪🇸 — Modelos y recursos oficiales de lenguaje en español (Apache-2.0).
+- [spaCy](https://github.com/explosion/spaCy) — PLN industrial en Python, con modelos para español (MIT).
+- [pysentimiento](https://github.com/pysentimiento/pysentimiento) 🇪🇸 — Análisis de sentimiento y PLN social en español. ⚠️ Solo uso no comercial e investigación.
 
 ## 🤖 Agentes y automatización
 
@@ -119,6 +134,10 @@
 - [browser-use](https://github.com/browser-use/browser-use) — Librería Python para agentes que usan el navegador.
 - [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) — Más de 100 agentes y apps RAG de código abierto listas para estudiar.
 - [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) — Lista de agentes autónomos de IA.
+- [DSPy](https://github.com/stanfordnlp/dspy) — Framework para programar (no solo escribir prompts) con LLMs (MIT).
+- [Mem0](https://github.com/mem0ai/mem0) — Capa de memoria para agentes de IA (Apache-2.0).
+- [STORM](https://github.com/stanford-oval/storm) — Investiga un tema y redacta un informe con citas (MIT).
+- [Firecrawl](https://github.com/firecrawl/firecrawl) — Convierte páginas web en datos para agentes (AGPL-3.0).
 
 ## 📄 RAG: IA sobre tus documentos
 
@@ -129,6 +148,11 @@
 - [Qdrant](https://github.com/qdrant/qdrant) — Base de datos y motor de búsqueda vectorial de alto rendimiento.
 - [Docling](https://github.com/docling-project/docling) — Prepara tus documentos (PDF, Office) para IA generativa.
 - [MarkItDown](https://github.com/microsoft/markitdown) — Convierte archivos y documentos de Office a Markdown.
+- [GraphRAG (Microsoft)](https://github.com/microsoft/graphrag) — RAG basado en grafos de conocimiento (MIT).
+- [Unstructured](https://github.com/Unstructured-IO/unstructured) — Convierte documentos (PDF, Word, HTML) en datos para RAG (Apache-2.0).
+- [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) — OCR para pasar PDFs e imágenes a texto (Apache-2.0).
+- [Milvus](https://github.com/milvus-io/milvus) — Base de datos vectorial de código abierto (Apache-2.0).
+- [Weaviate](https://github.com/weaviate/weaviate) — Base de datos vectorial (BSD-3-Clause / Weaviate License según carpeta).
 
 ## 🔌 MCP (Model Context Protocol)
 
@@ -138,6 +162,7 @@
 - [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) — SDK oficial de Python para servidores y clientes MCP.
 - [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) — SDK oficial de TypeScript para MCP.
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector) — Herramientas para probar servidores MCP.
+- [MCP for Beginners (Microsoft)](https://github.com/microsoft/mcp-for-beginners) — Curso de Model Context Protocol con traducciones (MIT).
 
 ## 🎙️ Voz: transcripción y síntesis
 
@@ -170,6 +195,7 @@
 - [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) — Framework para evaluar modelos con pocos ejemplos.
 - [DeepEval](https://github.com/confident-ai/deepeval) — Framework de evaluación de LLMs.
 - [Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) — Tabla interactiva de resultados de LLMs abiertos.
+- [Langfuse](https://github.com/langfuse/langfuse) — Trazas, evaluaciones y observabilidad de apps con LLM (MIT salvo carpetas ee/).
 
 ## 🗂️ Datasets en español
 
@@ -208,7 +234,7 @@ Lee [CONTRIBUTING.md](CONTRIBUTING.md). Regla de oro: el enlace debe abrir y la 
 
 ## English
 
-*awesome-ia-en-español* is a curated list of 139 AI resources in Spanish or useful for Spanish speakers: courses, local LLM tools, agents, RAG, MCP, voice, image, evaluation, datasets and communities. Every link was opened and checked on 2026-11-01, and a weekly GitHub Action (lychee) re-checks them. Contributions welcome in Spanish or English; see CONTRIBUTING.md.
+*awesome-ia-en-español* is a curated list of 165 AI resources in Spanish or useful for Spanish speakers: courses, local LLM tools, agents, RAG, MCP, voice, image, evaluation, datasets and communities. Every link was opened and checked on 2026-11-01, and a weekly GitHub Action (lychee) re-checks them. Contributions welcome in Spanish or English; see CONTRIBUTING.md.
 
 ## Licencia
 
