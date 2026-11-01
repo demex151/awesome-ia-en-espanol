@@ -2,7 +2,7 @@
 
 > Lista curada de herramientas, cursos, modelos, datasets y comunidades de inteligencia artificial **en español o útiles para hispanohablantes**.
 
-**120 recursos**, todos abiertos y revisados el 1 de noviembre de 2026. Un flujo de GitHub Actions revisa los enlaces cada semana.
+**139 recursos**, todos abiertos y revisados el 1 de noviembre de 2026. Un flujo de GitHub Actions revisa los enlaces cada semana.
 
 ¿No sabes por dónde empezar? Mira [`ejemplos/clientes/`](ejemplos/clientes/): 4 perfiles ficticios (pintor, restaurante, maestra, freelancer) con su ruta recomendada.
 
@@ -42,6 +42,10 @@
 - [Anthropic courses (repo)](https://github.com/anthropics/courses) — Cursos de Anthropic en notebooks: prompting, uso de la API y herramientas.
 - [SomosNLP recursos](https://github.com/somosnlp/recursos) — Diapositivas, notebooks y material de charlas y talleres de SomosNLP, en español.
 - [Dot CSV (YouTube)](https://www.youtube.com/@DotCSV) — Canal de divulgación sobre inteligencia artificial en español.
+- [Dive into Deep Learning](https://d2l.ai) — Libro interactivo y abierto de deep learning con código.
+- [Curso de NLP de Hugging Face](https://huggingface.co/learn/nlp-course/es/chapter1/1) 🇪🇸 — Curso de procesamiento de lenguaje natural con librerías de Hugging Face.
+- [¿Qué es la IA? (IBM)](https://www.ibm.com/es-es/think/topics/artificial-intelligence) 🇪🇸 — Artículo introductorio sobre inteligencia artificial.
+- [Kaggle Learn](https://www.kaggle.com/learn) — Microcursos de ciencia de datos y machine learning.
 
 ## 💬 Asistentes de IA de uso general
 
@@ -65,6 +69,10 @@
 - [AnythingLLM](https://anythingllm.com) — Asistente privado en tu equipo, sin cuentas ni claves de API.
 - [llamafile](https://github.com/Mozilla-Ocho/llamafile) — Distribuye y ejecuta un LLM con un solo archivo (Mozilla).
 - [LocalAI](https://github.com/mudler/LocalAI) — Motor abierto para correr texto, visión, voz e imagen en cualquier hardware, sin GPU.
+- [AnythingLLM (repo)](https://github.com/Mintplex-Labs/anything-llm) — Código fuente de AnythingLLM, experiencia de agente local.
+- [Ollama (repo)](https://github.com/ollama/ollama) — Código fuente de Ollama para ejecutar modelos abiertos.
+- [text-generation-webui](https://github.com/oobabooga/text-generation-webui) — App de escritorio de código abierto para LLMs locales.
+- [vLLM](https://github.com/vllm-project/vllm) — Motor de inferencia y servicio de LLMs eficiente en memoria.
 
 ## 🧠 Modelos en español y multilingües
 
@@ -93,6 +101,7 @@
 - [sentence_similarity_spanish_es](https://huggingface.co/hiiamsid/sentence_similarity_spanish_es) — Modelo de similitud de frases específico para español.
 - [opus-mt-en-es](https://huggingface.co/Helsinki-NLP/opus-mt-en-es) — Traducción automática inglés→español, ligera y local.
 - [NLLB-200 distilled 600M](https://huggingface.co/facebook/nllb-200-distilled-600M) — Modelo de traducción de Meta entre 200 idiomas.
+- [Barcelona Supercomputing Center](https://www.bsc.es) 🇪🇸 — Centro de supercomputación de Barcelona.
 
 ## 🤖 Agentes y automatización
 
@@ -149,6 +158,7 @@
 - [InvokeAI](https://github.com/invoke-ai/InvokeAI) — Motor creativo para Stable Diffusion orientado a profesionales.
 - [FLUX.1 schnell](https://huggingface.co/black-forest-labs/FLUX.1-schnell) — Modelo texto a imagen de Black Forest Labs (12B).
 - [Diffusers](https://github.com/huggingface/diffusers) — Librería de Hugging Face para modelos de difusión de imagen, video y audio.
+- [Stable Diffusion XL base 1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) — Modelo texto-a-imagen de Stability AI.
 
 ## 📏 Evaluación y rankings
 
@@ -159,6 +169,7 @@
 - [OpenAI Evals](https://github.com/openai/evals) — Framework y registro de benchmarks para evaluar LLMs.
 - [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) — Framework para evaluar modelos con pocos ejemplos.
 - [DeepEval](https://github.com/confident-ai/deepeval) — Framework de evaluación de LLMs.
+- [Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) — Tabla interactiva de resultados de LLMs abiertos.
 
 ## 🗂️ Datasets en español
 
@@ -169,6 +180,11 @@
 - [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) — Gran corpus multilingüe limpio, con partición en español.
 - [FineWeb-2](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2) — Corpus web multilingüe de Hugging Face.
 - [Common Voice 17](https://huggingface.co/datasets/mozilla-foundation/common_voice_17_0) — Grabaciones de voz donadas por la comunidad, con español.
+- [C4 (AllenAI)](https://huggingface.co/datasets/allenai/c4) — Gran corpus de texto web.
+- [mC4-es sampled (BERTIN)](https://huggingface.co/datasets/bertin-project/mc4-es-sampled) 🇪🇸 — Muestra del corpus mC4 en español (~5 M filas).
+- [FLORES](https://huggingface.co/datasets/facebook/flores) — Dataset multilingüe de Meta (~1,2 M filas).
+- [Catalan Textual Corpus](https://huggingface.co/datasets/projecte-aina/catalan_textual_corpus) — Corpus de texto en catalán de Projecte Aina.
+- [Wikipedia (Wikimedia)](https://huggingface.co/datasets/wikimedia/wikipedia) — Dataset de texto de Wikipedia en múltiples idiomas.
 
 ## 👥 Comunidades y eventos
 
@@ -178,6 +194,9 @@
 - [KHIPU](https://khipu.ai) — Encuentro latinoamericano de inteligencia artificial.
 - [LatinX in AI](https://www.latinxinai.org) — Organización que impulsa a personas latinas en la investigación de IA.
 - [Foros de Hugging Face](https://discuss.huggingface.co) — Foro de la comunidad para dudas sobre modelos y librerías.
+- [PyLadies](https://pyladies.com) — Comunidad de mujeres que programan en Python.
+- [Meetup: grupos de IA](https://www.meetup.com/topics/artificial-intelligence/) — Encuentra grupos y eventos de IA cerca de ti.
+- [R-Ladies](https://www.r-ladies.org) — Organización de la comunidad R.
 
 ## Ejemplos de uso
 
@@ -189,7 +208,7 @@ Lee [CONTRIBUTING.md](CONTRIBUTING.md). Regla de oro: el enlace debe abrir y la 
 
 ## English
 
-*awesome-ia-en-español* is a curated list of 120 AI resources in Spanish or useful for Spanish speakers: courses, local LLM tools, agents, RAG, MCP, voice, image, evaluation, datasets and communities. Every link was opened and checked on 2026-11-01, and a weekly GitHub Action (lychee) re-checks them. Contributions welcome in Spanish or English; see CONTRIBUTING.md.
+*awesome-ia-en-español* is a curated list of 139 AI resources in Spanish or useful for Spanish speakers: courses, local LLM tools, agents, RAG, MCP, voice, image, evaluation, datasets and communities. Every link was opened and checked on 2026-11-01, and a weekly GitHub Action (lychee) re-checks them. Contributions welcome in Spanish or English; see CONTRIBUTING.md.
 
 ## Licencia
 
