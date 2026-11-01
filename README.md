@@ -100,7 +100,7 @@
 - [HiTZ](https://huggingface.co/HiTZ) — Centro vasco de tecnología del lenguaje: PLN y procesamiento de señal.
 - [Latxa 7B](https://huggingface.co/HiTZ/latxa-7b-v1.2) — Modelo de generación de texto para euskera de HiTZ.
 - [Manuel Romero (mrm8488)](https://huggingface.co/mrm8488) — Cientos de modelos ajustados por un divulgador hispano de IA.
-- [pysentimiento](https://huggingface.co/pysentimiento) — Modelos de análisis de opinión y sentimiento en redes sociales, enfocados en español.
+- [pysentimiento](https://huggingface.co/pysentimiento) — Modelos de análisis de opinión y sentimiento en redes sociales, enfocados en español. ⚠️ Solo uso no comercial e investigación.
 - [Meta Llama](https://huggingface.co/meta-llama) — Perfil oficial de los modelos Llama de Meta.
 - [Qwen](https://huggingface.co/Qwen) — Perfil oficial de la familia de modelos Qwen.
 - [Mistral AI](https://huggingface.co/mistralai) — Perfil oficial de los modelos de Mistral.
