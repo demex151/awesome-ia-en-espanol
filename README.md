@@ -78,6 +78,8 @@
 - [llamafile](https://github.com/Mozilla-Ocho/llamafile) — Distribuye y ejecuta un LLM con un solo archivo (Mozilla).
 - [LocalAI](https://github.com/mudler/LocalAI) — Motor abierto para correr texto, visión, voz e imagen en cualquier hardware, sin GPU.
 - [AnythingLLM (repo)](https://github.com/Mintplex-Labs/anything-llm) — Código fuente de AnythingLLM, experiencia de agente local.
+- [QuéLLM](https://quellm.com/) — Configurador gratuito en español para elegir modelos locales según la memoria disponible y comparar la cuantización; las estimaciones de hardware y velocidad son indicativas. Incluye guías en español y kits opcionales de pago.
+
 - [Ollama (repo)](https://github.com/ollama/ollama) — Código fuente de Ollama para ejecutar modelos abiertos.
 - [text-generation-webui](https://github.com/oobabooga/text-generation-webui) — App de escritorio de código abierto para LLMs locales.
 - [vLLM](https://github.com/vllm-project/vllm) — Motor de inferencia y servicio de LLMs eficiente en memoria.
