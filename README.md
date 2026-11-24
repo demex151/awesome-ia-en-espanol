@@ -53,6 +53,7 @@
 - [LLM Course (mlabonne)](https://github.com/mlabonne/llm-course) — Ruta y notebooks para aprender LLMs (Apache-2.0, en inglés).
 - [LLMs from scratch (rasbt)](https://github.com/rasbt/LLMs-from-scratch) — Construye un LLM paso a paso en PyTorch (Apache-2.0, en inglés).
 - [nanoGPT](https://github.com/karpathy/nanoGPT) — Repositorio mínimo para entrenar GPTs pequeños (MIT).
+- [Awesome IA para Pymes](https://github.com/MatiasConsultor/awesome-ia-pymes) — Lista curada de herramientas de IA para pymes y autónomos, organizada por áreas del negocio, con indicación de planes gratuitos y notas de RGPD.
 
 ## 💬 Asistentes de IA de uso general
 
